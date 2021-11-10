@@ -11,5 +11,10 @@ export class DiaporamaComponent implements OnInit {
 
   ngOnInit(): void {
   }
+//  var require :any;
+
+//   cheminImage:any = "src/app/diaporama/img1.jpeg";
+  
 
 }
+

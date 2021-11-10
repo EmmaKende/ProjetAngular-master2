@@ -7,7 +7,8 @@ import { HelloComponent } from './hello-component/hello-component.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CharteGraphiqueComponent } from './charte-graphique/charte-graphique.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { DiaporamaComponent } from './diaporama/diaporama.component'
+import { DiaporamaComponent } from './diaporama/diaporama.component';
+import { BarreDeRechercheComponent } from './barre-de-recherche/barre-de-recherche.component'
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { DiaporamaComponent } from './diaporama/diaporama.component'
     HelloComponent,
     CharteGraphiqueComponent,
     DiaporamaComponent,
+    BarreDeRechercheComponent,
     
   ],
   imports: [

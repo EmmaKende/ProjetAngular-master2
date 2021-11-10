@@ -1,21 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DiaporamaComponent } from './diaporama.component';
+import { BarreDeRechercheComponent } from './barre-de-recherche.component';
 
-
-describe('DiaporamaComponent', () => {
-  let component: DiaporamaComponent;
-  let fixture: ComponentFixture<DiaporamaComponent>;
+describe('BarreDeRechercheComponent', () => {
+  let component: BarreDeRechercheComponent;
+  let fixture: ComponentFixture<BarreDeRechercheComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DiaporamaComponent ]
+      declarations: [ BarreDeRechercheComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DiaporamaComponent);
+    fixture = TestBed.createComponent(BarreDeRechercheComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -21,7 +21,7 @@ export class HelloComponent implements OnInit {
       alert(error.message)
     }
     );
-    
+ 
   }
 
 }

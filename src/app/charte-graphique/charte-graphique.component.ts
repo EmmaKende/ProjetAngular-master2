@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-charte-graphique',
   templateUrl: './charte-graphique.component.html',
@@ -11,5 +12,7 @@ export class CharteGraphiqueComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  
 
 }
